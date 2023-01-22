@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.add-todo {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-todo ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.add-todo .input-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-todo .input-content input {
+  margin-top: 10px;
+  margin-right: 75px;
+  height: 70px;
+}
+
+.Todo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Todo p {
+  margin: 0;
+}
+
+.Todo button {
+  display: none;
+}
+
+.Todo h3 {
+  padding: 0;
+  margin: 0;
+}
